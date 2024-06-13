@@ -45,7 +45,7 @@ export function Component() {
                   Software Engineer | Full-Stack Developer
                 </p>
                 <p className="max-w-[600px] text-gray-500 md:text-xl dark:text-gray-400">
-                  I'm a passionate software engineer with expertise in building scalable and user-friendly web
+                  I&apos;m a passionate software engineer with expertise in building scalable and user-friendly web
                   applications.
                 </p>
               </div>
@@ -81,7 +81,7 @@ export function Component() {
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">About Me</h2>
                 <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                  I'm a software engineer with a passion for building innovative and user-friendly web applications. I
+                  I&apos;m a software engineer with a passion for building innovative and user-friendly web applications. I
                   have a strong background in full-stack development, with expertise in technologies like React,
                   Node.js, and MongoDB.
                 </p>
@@ -123,7 +123,7 @@ export function Component() {
             <div className="space-y-2">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">My Projects</h2>
               <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                Check out some of the projects I've worked on.
+                Check out some of the projects I&apos;ve worked on.
               </p>
             </div>
           </div>
@@ -182,7 +182,7 @@ export function Component() {
             <div className="space-y-2">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Get in Touch</h2>
               <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                Have a project in mind or just want to say hello? Fill out the form below and I'll get back to you as
+                Have a project in mind or just want to say hello? Fill out the form below and I&apos;ll get back to you as
                 soon as possible.
               </p>
             </div>
