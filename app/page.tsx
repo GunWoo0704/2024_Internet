@@ -75,12 +75,12 @@ export default function Home() {
                 <div className="grid gap-1">
                   <h3 className="text-lg font-bold">소속</h3>
                   <p className="text-gray-500 dark:text-gray-400">
-                    서강대학교 미래교육원
+                    Sogang Game Education University
                   </p>
                 </div>
                 <div className="grid gap-1">
                   <h3 className="text-lg font-bold">학년</h3>
-                  <p className="text-gray-500 dark:text-gray-400">대학교 3학년</p>
+                  <p className="text-gray-500 dark:text-gray-400">Junior</p>
                 </div>
               </div>
             </div>
@@ -112,7 +112,7 @@ export default function Home() {
           <div className="mx-auto grid max-w-5xl grid-cols-1 gap-8 py-12 sm:grid-cols-2 lg:grid-cols-3">
             <Card>
               <Link href="https://github.com/GunWoo0704/Project-Null.git" legacyBehavior>
-                <a className="block">
+                <a href="https://github.com/GunWoo0704/Project-Null.git" target="_blank" rel="noopener noreferrer" className="block">
                   <img
                     src="/2.png"
                     width="550"
@@ -131,7 +131,7 @@ export default function Home() {
             </Card>
             <Card>
               <Link href="https://github.com/GunWoo0704/9-Team-Unclear.git" legacyBehavior>
-                <a className="block">
+                <a href="https://github.com/GunWoo0704/9-Team-Unclear.git" target="_blank" rel="noopener noreferrer" className="block">
                   <img
                     src="/23.jpg"
                     width="550"
@@ -150,7 +150,7 @@ export default function Home() {
             </Card>
             <Card>
               <Link href="https://github.com/GunWoo0704/SOng-Test.git" legacyBehavior>
-                <a className="block">
+                <a href="https://github.com/GunWoo0704/SOng-Test.git" target="_blank" rel="noopener noreferrer" className="block">
                   <img
                     src="/back.png"
                     width="550"
