@@ -1,10 +1,11 @@
 import Image from "next/image";
-import Link from "next/link"
-import { Card, CardContent } from "@/components/ui/card"
-import { Label } from "@/components/ui/label"
-import { Input } from "@/components/ui/input"
-import { Textarea } from "@/components/ui/textarea"
-import { Button } from "@/components/ui/button"
+import Link from "next/link";
+import { Card, CardContent } from "@/components/ui/card";
+import { Label } from "@/components/ui/label";
+import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
+import { Button } from "@/components/ui/button";
+import React from "react";
 
 export default function Home() {
   return (
@@ -21,8 +22,8 @@ export default function Home() {
                   Code Monkey | Game Engineer
                 </p>
                 <p className="max-w-[600px] text-gray-500 md:text-xl dark:text-gray-400">
-                  I&apos;m a passionate software engineer with expertise in building scalable and user-friendly web
-                  applications.
+                  I&apos;m a passionate software engineer with expertise in
+                  building scalable and user-friendly web applications.
                 </p>
               </div>
               <div className="flex flex-col gap-2 min-[400px]:flex-row">
@@ -43,50 +44,52 @@ export default function Home() {
               </div>
             </div>
             <img
-              src="/placeholder.svg"
-              width="550"
-              height="550"
-              alt="Hero"
-              className="mx-auto aspect-square overflow-hidden rounded-xl object-cover"
+              src="/new.png"
+              width="2000"
+              height="4000"
+              alt="seohee"
+              className="mx-auto overflow-hidden rounded-xl object-contain w-full h-auto"
             />
           </div>
         </div>
       </section>
-      <section id="about" className="w-full py-12 md:py-24 lg:py-32 flex items-center justify-center">
+      <section
+        id="about"
+        className="w-full py-12 md:py-24 lg:py-32 flex items-center justify-center"
+      >
         <div className="container px-4 md:px-6">
           <div className="grid gap-6 lg:grid-cols-2 lg:gap-12">
             <div className="space-y-4">
               <div className="space-y-2">
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">About Me</h2>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
+                  About Me
+                </h2>
                 <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                  I&apos;m a software engineer with a passion for building innovative and user-friendly web applications. I
-                  have a strong background in full-stack development, with expertise in technologies like React,
-                  Node.js, and MongoDB.
+                  I am currently developing a combo action game using Unreal
+                  Engine, C++.
                 </p>
               </div>
               <div className="grid gap-4">
                 <div className="grid gap-1">
                   <h3 className="text-lg font-bold">Skills</h3>
                   <p className="text-gray-500 dark:text-gray-400">
-                    React, Node.js, MongoDB, Express, JavaScript, TypeScript, HTML, CSS, Git, AWS
+                    C, C++, Unreal, Git
                   </p>
                 </div>
                 <div className="grid gap-1">
                   <h3 className="text-lg font-bold">Education</h3>
                   <p className="text-gray-500 dark:text-gray-400">
-                    Bachelor of Science in Computer Science, University of California, Berkeley
+                    Sogang Game Education University
                   </p>
                 </div>
                 <div className="grid gap-1">
                   <h3 className="text-lg font-bold">Experience</h3>
-                  <p className="text-gray-500 dark:text-gray-400">
-                    5+ years of experience in web development, working with startups and enterprise companies.
-                  </p>
+                  <p className="text-gray-500 dark:text-gray-400">Junior</p>
                 </div>
               </div>
             </div>
             <img
-              src="/placeholder.svg"
+              src="/1.gif"
               width="550"
               height="310"
               alt="About"
@@ -95,73 +98,95 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section id="projects" className="w-full py-12 md:py-24 lg:py-32 flex items-center justify-center">
+      <section
+        id="projects"
+        className="w-full py-12 md:py-24 lg:py-32 flex items-center justify-center"
+      >
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">My Projects</h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+                My Projects
+              </h2>
               <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                Check out some of the projects I&apos;ve worked on.
+                사진을 누르시면 GitHub로 링크 연결이 됩니다.
               </p>
             </div>
           </div>
           <div className="mx-auto grid max-w-5xl grid-cols-1 gap-8 py-12 sm:grid-cols-2 lg:grid-cols-3">
             <Card>
-              <img
-                src="/placeholder.svg"
-                width="550"
-                height="310"
-                alt="Project 1"
-                className="aspect-video overflow-hidden rounded-t-xl object-cover"
-              />
-              <CardContent className="space-y-2 p-4">
-                <h3 className="text-lg font-bold">Project 1</h3>
-                <p className="text-gray-500 dark:text-gray-400">
-                  A web application that helps users manage their tasks and projects.
-                </p>
-              </CardContent>
+              <Link href="https://github.com/GunWoo0704/Project-Null.git" legacyBehavior>
+                <a className="block">
+                  <img
+                    src="/2.png"
+                    width="550"
+                    height="310"
+                    alt="Project 1"
+                    className="aspect-video overflow-hidden rounded-t-xl object-cover"
+                  />
+                  <CardContent className="space-y-2 p-4">
+                    <h3 className="text-lg font-bold">Project : Null</h3>
+                    <p className="text-gray-500 dark:text-gray-400">
+                    콤보 액션 게임입니다. 언리얼 5.2.1을 사용했으며 현재 개발중인 프로젝트입니다.
+                    </p>
+                  </CardContent>
+                </a>
+              </Link>
             </Card>
             <Card>
-              <img
-                src="/placeholder.svg"
-                width="550"
-                height="310"
-                alt="Project 2"
-                className="aspect-video overflow-hidden rounded-t-xl object-cover"
-              />
-              <CardContent className="space-y-2 p-4">
-                <h3 className="text-lg font-bold">Project 2</h3>
-                <p className="text-gray-500 dark:text-gray-400">
-                  A mobile-friendly e-commerce platform for selling handmade products.
-                </p>
-              </CardContent>
+              <Link href="https://github.com/GunWoo0704/9-Team-Unclear.git" legacyBehavior>
+                <a className="block">
+                  <img
+                    src="/23.jpg"
+                    width="550"
+                    height="310"
+                    alt="Project 1"
+                    className="aspect-video overflow-hidden rounded-t-xl object-cover"
+                  />
+                  <CardContent className="space-y-2 p-4">
+                    <h3 className="text-lg font-bold">Unclear</h3>
+                    <p className="text-gray-500 dark:text-gray-400">
+                      언리얼 5.0.3을 이용해 개발했으며 FPS 슈팅 게임이며 몬스터를 물리치면서 탈출하는 게입입니다.
+                    </p>
+                  </CardContent>
+                </a>
+              </Link>
             </Card>
             <Card>
-              <img
-                src="/placeholder.svg"
-                width="550"
-                height="310"
-                alt="Project 3"
-                className="aspect-video overflow-hidden rounded-t-xl object-cover"
-              />
-              <CardContent className="space-y-2 p-4">
-                <h3 className="text-lg font-bold">Project 3</h3>
-                <p className="text-gray-500 dark:text-gray-400">
-                  A data visualization dashboard for tracking key business metrics.
-                </p>
-              </CardContent>
+              <Link href="https://github.com/GunWoo0704/SOng-Test.git" legacyBehavior>
+                <a className="block">
+                  <img
+                    src="/back.png"
+                    width="550"
+                    height="310"
+                    alt="Project 1"
+                    className="aspect-video overflow-hidden rounded-t-xl object-cover"
+                  />
+                  <CardContent className="space-y-2 p-4">
+                    <h3 className="text-lg font-bold">Last Leap</h3>
+                    <p className="text-gray-500 dark:text-gray-400">
+                      2023 넥슨 게임잼에서 개발한 퍼즐 게임입니다.
+                    </p>
+                  </CardContent>
+                </a>
+              </Link>
             </Card>
           </div>
         </div>
       </section>
-      <section id="contact" className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800 flex items-center justify-center">
+      <section
+        id="contact"
+        className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800 flex items-center justify-center"
+      >
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Get in Touch</h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
+                Get in Touch
+              </h2>
               <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                Have a project in mind or just want to say hello? Fill out the form below and I&apos;ll get back to you as
-                soon as possible.
+                Have a project in mind or just want to say hello? Fill out the
+                form below and I&apos;ll get back to you as soon as possible.
               </p>
             </div>
           </div>
@@ -177,7 +202,11 @@ export default function Home() {
               </div>
               <div className="space-y-2">
                 <Label htmlFor="message">Message</Label>
-                <Textarea id="message" placeholder="Enter your message" className="min-h-[100px]" />
+                <Textarea
+                  id="message"
+                  placeholder="Enter your message"
+                  className="min-h-[100px]"
+                />
               </div>
               <Button type="submit" className="w-full">
                 Send Message
@@ -187,5 +216,5 @@ export default function Home() {
         </div>
       </section>
     </main>
-  )
+  );
 }
