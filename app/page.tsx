@@ -19,28 +19,25 @@ export default function Home() {
                   송건우
                 </h1>
                 <p className="max-w-[600px] text-gray-500 md:text-xl dark:text-gray-400">
-                  Code Monkey | Game Engineer
+                  개발자 호소인 | 클라이언트 프로그래머
                 </p>
                 <p className="max-w-[600px] text-gray-500 md:text-xl dark:text-gray-400">
-                  I&apos;m a passionate software engineer with expertise in
-                  building scalable and user-friendly web applications.
+                  저는 게임 개발자가 되기 위해 C++과 언리얼을 공부하고 있는 대학생 송건우입니다.
                 </p>
               </div>
               <div className="flex flex-col gap-2 min-[400px]:flex-row">
-                <Link
-                  href="#"
+                <a
+                  href="#about"
                   className="inline-flex h-10 items-center justify-center rounded-md bg-gray-900 px-8 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
-                  prefetch={false}
                 >
-                  Learn More
-                </Link>
-                <Link
-                  href="#"
-                  className="inline-flex h-10 items-center justify-center rounded-md border border-gray-200 border-gray-200 bg-white px-8 text-sm font-medium shadow-sm transition-colors hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-800 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus-visible:ring-gray-300"
-                  prefetch={false}
+                  더보기
+                </a>
+                <a
+                  href="#contact"
+                  className="inline-flex h-10 items-center justify-center rounded-md border border-gray-200 bg-white px-8 text-sm font-medium shadow-sm transition-colors hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus-visible:ring-gray-300"
                 >
-                  Contact Me
-                </Link>
+                  문의하기
+                </a>
               </div>
             </div>
             <img
@@ -62,28 +59,27 @@ export default function Home() {
             <div className="space-y-4">
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-                  About Me
+                  소개
                 </h2>
                 <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                  I am currently developing a combo action game using Unreal
-                  Engine, C++.
+                  언리얼과 C++를 사용하여 콤보 액션 게임을 개발하고 있습니다.
                 </p>
               </div>
               <div className="grid gap-4">
                 <div className="grid gap-1">
-                  <h3 className="text-lg font-bold">Skills</h3>
+                  <h3 className="text-lg font-bold">사용 기술</h3>
                   <p className="text-gray-500 dark:text-gray-400">
                     C, C++, Unreal, Git
                   </p>
                 </div>
                 <div className="grid gap-1">
-                  <h3 className="text-lg font-bold">Education</h3>
+                  <h3 className="text-lg font-bold">소속</h3>
                   <p className="text-gray-500 dark:text-gray-400">
                     Sogang Game Education University
                   </p>
                 </div>
                 <div className="grid gap-1">
-                  <h3 className="text-lg font-bold">Experience</h3>
+                  <h3 className="text-lg font-bold">학년</h3>
                   <p className="text-gray-500 dark:text-gray-400">Junior</p>
                 </div>
               </div>
@@ -106,7 +102,7 @@ export default function Home() {
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                My Projects
+                참여한 프로젝트
               </h2>
               <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
                 사진을 누르시면 GitHub로 링크 연결이 됩니다.
@@ -127,7 +123,7 @@ export default function Home() {
                   <CardContent className="space-y-2 p-4">
                     <h3 className="text-lg font-bold">Project : Null</h3>
                     <p className="text-gray-500 dark:text-gray-400">
-                    콤보 액션 게임입니다. 언리얼 5.2.1을 사용했으며 현재 개발중인 프로젝트입니다.
+                      콤보 액션 게임입니다. 언리얼 5.2.1을 사용했으며 현재 개발중인 프로젝트입니다.
                     </p>
                   </CardContent>
                 </a>
@@ -182,34 +178,33 @@ export default function Home() {
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-                Get in Touch
+                문의하기
               </h2>
               <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                Have a project in mind or just want to say hello? Fill out the
-                form below and I&apos;ll get back to you as soon as possible.
+                질문이 있으시거나 관심이 있으신 분은 하단을 참고해주세요.
               </p>
             </div>
           </div>
           <div className="mx-auto mt-8 w-full max-w-md space-y-4">
             <form>
               <div className="space-y-2">
-                <Label htmlFor="name">Name</Label>
-                <Input id="name" placeholder="Enter your name" />
+                <Label htmlFor="name">이름</Label>
+                <Input id="name" placeholder="이름을 작성해주세요." />
               </div>
               <div className="space-y-2">
-                <Label htmlFor="email">Email</Label>
-                <Input id="email" type="email" placeholder="Enter your email" />
+                <Label htmlFor="email">이메일</Label>
+                <Input id="email" type="email" placeholder="이메일을 작성해주세요" />
               </div>
               <div className="space-y-2">
-                <Label htmlFor="message">Message</Label>
+                <Label htmlFor="message">메세지</Label>
                 <Textarea
                   id="message"
-                  placeholder="Enter your message"
+                  placeholder="메세지를 작성해주세요"
                   className="min-h-[100px]"
                 />
               </div>
               <Button type="submit" className="w-full">
-                Send Message
+                메일 보내기
               </Button>
             </form>
           </div>
