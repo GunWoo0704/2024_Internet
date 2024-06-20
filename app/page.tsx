@@ -75,12 +75,12 @@ export default function Home() {
                 <div className="grid gap-1">
                   <h3 className="text-lg font-bold">소속</h3>
                   <p className="text-gray-500 dark:text-gray-400">
-                    Sogang Game Education University
+                    서강대학교 미래교육원
                   </p>
                 </div>
                 <div className="grid gap-1">
                   <h3 className="text-lg font-bold">학년</h3>
-                  <p className="text-gray-500 dark:text-gray-400">Junior</p>
+                  <p className="text-gray-500 dark:text-gray-400">대학교 3학년</p>
                 </div>
               </div>
             </div>
