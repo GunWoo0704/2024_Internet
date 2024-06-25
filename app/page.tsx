@@ -22,7 +22,8 @@ export default function Home() {
                   개발자 호소인 | 클라이언트 프로그래머
                 </p>
                 <p className="max-w-[600px] text-gray-500 md:text-xl dark:text-gray-400">
-                  저는 게임 개발자가 되기 위해 C++과 언리얼을 공부하고 있는 대학생 송건우입니다.
+                  저는 게임 개발자가 되기 위해 C++과 언리얼을 공부하고 있는
+                  대학생 송건우입니다.
                 </p>
               </div>
               <div className="flex flex-col gap-2 min-[400px]:flex-row">
@@ -52,7 +53,7 @@ export default function Home() {
       </section>
       <section
         id="about"
-        className="w-full py-12 md:py-24 lg:py-32 flex items-center justify-center"
+        className="w-full py-12 md:py-24 lg:py-32 flex items-center justify-center bg-gray-100 dark:bg-gray-800"
       >
         <div className="container px-4 md:px-6">
           <div className="grid gap-6 lg:grid-cols-2 lg:gap-12">
@@ -111,8 +112,16 @@ export default function Home() {
           </div>
           <div className="mx-auto grid max-w-5xl grid-cols-1 gap-8 py-12 sm:grid-cols-2 lg:grid-cols-3">
             <Card>
-              <Link href="https://github.com/GunWoo0704/Project-Null.git" legacyBehavior>
-                <a href="https://github.com/GunWoo0704/Project-Null.git" target="_blank" rel="noopener noreferrer" className="block">
+              <Link
+                href="https://github.com/GunWoo0704/Project-Null.git"
+                legacyBehavior
+              >
+                <a
+                  href="https://github.com/GunWoo0704/Project-Null.git"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block"
+                >
                   <img
                     src="/2.png"
                     width="550"
@@ -123,15 +132,24 @@ export default function Home() {
                   <CardContent className="space-y-2 p-4">
                     <h3 className="text-lg font-bold">Project : Null</h3>
                     <p className="text-gray-500 dark:text-gray-400">
-                      콤보 액션 게임입니다. 언리얼 5.2.1을 사용했으며 현재 개발중인 프로젝트입니다.
+                      콤보 액션 게임입니다. 언리얼 5.2.1을 사용했으며 현재
+                      개발중인 프로젝트입니다.
                     </p>
                   </CardContent>
                 </a>
               </Link>
             </Card>
             <Card>
-              <Link href="https://github.com/GunWoo0704/9-Team-Unclear.git" legacyBehavior>
-                <a href="https://github.com/GunWoo0704/9-Team-Unclear.git" target="_blank" rel="noopener noreferrer" className="block">
+              <Link
+                href="https://github.com/GunWoo0704/9-Team-Unclear.git"
+                legacyBehavior
+              >
+                <a
+                  href="https://github.com/GunWoo0704/9-Team-Unclear.git"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block"
+                >
                   <img
                     src="/23.jpg"
                     width="550"
@@ -142,15 +160,24 @@ export default function Home() {
                   <CardContent className="space-y-2 p-4">
                     <h3 className="text-lg font-bold">Unclear</h3>
                     <p className="text-gray-500 dark:text-gray-400">
-                      언리얼 5.0.3을 이용해 개발했으며 FPS 슈팅 게임이며 몬스터를 물리치면서 탈출하는 게입입니다.
+                      언리얼 5.0.3을 이용해 개발했으며 FPS 슈팅 게임이며
+                      몬스터를 물리치면서 탈출하는 게임입니다.
                     </p>
                   </CardContent>
                 </a>
               </Link>
             </Card>
             <Card>
-              <Link href="https://github.com/GunWoo0704/SOng-Test.git" legacyBehavior>
-                <a href="https://github.com/GunWoo0704/SOng-Test.git" target="_blank" rel="noopener noreferrer" className="block">
+              <Link
+                href="https://github.com/GunWoo0704/SOng-Test.git"
+                legacyBehavior
+              >
+                <a
+                  href="https://github.com/GunWoo0704/SOng-Test.git"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block"
+                >
                   <img
                     src="/back.png"
                     width="550"
@@ -193,19 +220,26 @@ export default function Home() {
               </div>
               <div className="space-y-2">
                 <Label htmlFor="email">이메일</Label>
-                <Input id="email" type="email" placeholder="이메일을 작성해주세요" />
+                <Input
+                  id="email"
+                  type="email"
+                  placeholder="이메일을 작성해주세요"
+                />
               </div>
-              <div className="space-y-2">
+              <div className="space-y-4">
                 <Label htmlFor="message">메세지</Label>
                 <Textarea
                   id="message"
                   placeholder="메세지를 작성해주세요"
-                  className="min-h-[100px]"
+                  className="min-h-[120px]"
                 />
               </div>
-              <Button type="submit" className="w-full">
-                메일 보내기
-              </Button>
+              <a
+                href="#contact"
+                className="w-full mt-4 inline-flex h-10 items-center justify-center rounded-md border border-transparent bg-black px-8 text-sm font-medium shadow-sm transition-colors hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-300 disabled:pointer-events-none disabled:opacity-50"
+              >
+                문의하기
+              </a>
             </form>
           </div>
         </div>
