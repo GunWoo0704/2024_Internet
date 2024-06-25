@@ -18,10 +18,10 @@ export default function Home() {
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
                   송건우
                 </h1>
-                <p className="max-w-[600px] text-gray-500 md:text-xl dark:text-gray-400">
+                <p className="max-w-[600px] text-gray-500 md:text-xl ">
                   개발자 호소인 | 클라이언트 프로그래머
                 </p>
-                <p className="max-w-[600px] text-gray-500 md:text-xl dark:text-gray-400">
+                <p className="max-w-[600px] text-gray-500 md:text-xl">
                   저는 게임 개발자가 되기 위해 C++과 언리얼을 공부하고 있는
                   대학생 송건우입니다.
                 </p>
@@ -62,26 +62,27 @@ export default function Home() {
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
                   소개
                 </h2>
-                <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+                <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed 
+                ">
                   언리얼과 C++를 사용하여 콤보 액션 게임을 개발하고 있습니다.
                 </p>
               </div>
               <div className="grid gap-4">
                 <div className="grid gap-1">
                   <h3 className="text-lg font-bold">사용 기술</h3>
-                  <p className="text-gray-500 dark:text-gray-400">
+                  <p className="text-gray-500 ">
                     C, C++, Unreal, Git
                   </p>
                 </div>
                 <div className="grid gap-1">
                   <h3 className="text-lg font-bold">소속</h3>
-                  <p className="text-gray-500 dark:text-gray-400">
+                  <p className="text-gray-500 ">
                     Sogang Game Education University
                   </p>
                 </div>
                 <div className="grid gap-1">
                   <h3 className="text-lg font-bold">학년</h3>
-                  <p className="text-gray-500 dark:text-gray-400">Junior</p>
+                  <p className="text-gray-500 ">Junior</p>
                 </div>
               </div>
             </div>
@@ -105,7 +106,7 @@ export default function Home() {
               <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
                 참여한 프로젝트
               </h2>
-              <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+              <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed ">
                 사진을 누르시면 GitHub로 링크 연결이 됩니다.
               </p>
             </div>
@@ -131,7 +132,7 @@ export default function Home() {
                   />
                   <CardContent className="space-y-2 p-4">
                     <h3 className="text-lg font-bold">Project : Null</h3>
-                    <p className="text-gray-500 dark:text-gray-400">
+                    <p className="text-gray-500 ">
                       콤보 액션 게임입니다. 언리얼 5.2.1을 사용했으며 현재
                       개발중인 프로젝트입니다.
                     </p>
@@ -159,7 +160,7 @@ export default function Home() {
                   />
                   <CardContent className="space-y-2 p-4">
                     <h3 className="text-lg font-bold">Unclear</h3>
-                    <p className="text-gray-500 dark:text-gray-400">
+                    <p className="text-gray-500 ">
                       언리얼 5.0.3을 이용해 개발했으며 FPS 슈팅 게임이며
                       몬스터를 물리치면서 탈출하는 게임입니다.
                     </p>
@@ -187,7 +188,7 @@ export default function Home() {
                   />
                   <CardContent className="space-y-2 p-4">
                     <h3 className="text-lg font-bold">Last Leap</h3>
-                    <p className="text-gray-500 dark:text-gray-400">
+                    <p className="text-gray-500 ">
                       2023 넥슨 게임잼에서 개발한 퍼즐 게임입니다.
                     </p>
                   </CardContent>
@@ -207,7 +208,7 @@ export default function Home() {
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
                 문의하기
               </h2>
-              <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+              <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed ">
                 질문이 있으시거나 관심이 있으신 분은 하단을 참고해주세요.
               </p>
             </div>
