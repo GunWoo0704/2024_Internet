@@ -1,10 +1,11 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 import { Card, CardContent } from "@/components/ui/card";
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Button } from "@/components/ui/button";
 import React from "react";
 
 export default function Home() {
@@ -147,8 +148,7 @@ export default function Home() {
                   <CardContent className="space-y-2 p-4">
                     <h3 className="text-lg font-bold">Project : Null</h3>
                     <p className="text-gray-500 dark:text-gray-400">
-                      콤보 액션 게임입니다. 언리얼 5.2.1을 사용했으며 현재
-                      개발중인 프로젝트입니다.
+                      콤보 액션 게임입니다. 언리얼 5.2.1을 사용했으며 현재 개발중인 프로젝트입니다.
                     </p>
                   </CardContent>
                 </a>
@@ -175,8 +175,7 @@ export default function Home() {
                   <CardContent className="space-y-2 p-4">
                     <h3 className="text-lg font-bold">Unclear</h3>
                     <p className="text-gray-500 dark:text-gray-400">
-                      언리얼 5.0.3을 이용해 개발했으며 FPS 슈팅 게임이며
-                      몬스터를 물리치면서 탈출하는 게입입니다.
+                      언리얼 5.0.3을 이용해 개발했으며 FPS 슈팅 게임이며 몬스터를 물리치면서 탈출하는 게입입니다.
                     </p>
                   </CardContent>
                 </a>
@@ -249,7 +248,10 @@ export default function Home() {
                   className="min-h-[100px]"
                 />
               </div>
-              <div className="w-full mt-4 text-center text-gray-500">
+              <div
+                className="w-full mt-4 text-center text-gray-500 border border-gray-200 p-2 rounded-md cursor-not-allowed"
+                style={{ cursor: "not-allowed" }}
+              >
                 메일 보내기
               </div>
             </form>
