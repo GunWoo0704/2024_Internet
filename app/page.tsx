@@ -23,7 +23,7 @@ export default function Home() {
             자기소개
           </Link>
           <Link href="#contact" className="hover:underline">
-            연락처
+            문의하기
           </Link>
         </div>
       </nav>
